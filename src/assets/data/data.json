@@ -1,0 +1,95 @@
+{
+    "estudiantes": [
+      {
+        "nombre": "Laura",
+        "apellido": "Martínez",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 8.5},
+          {"nombre": "Ciencias", "nota": 7.2},
+          {"nombre": "Historia", "nota": 9.0}
+        ]
+      },
+      {
+        "nombre": "Carlos",
+        "apellido": "López",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 9.2},
+          {"nombre": "Ciencias", "nota": 6.8},
+          {"nombre": "Historia", "nota": 7.5}
+        ]
+      },
+      {
+        "nombre": "María",
+        "apellido": "Hernández",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 7.8},
+          {"nombre": "Ciencias", "nota": 8.0},
+          {"nombre": "Historia", "nota": 8.2}
+        ]
+      },
+      {
+        "nombre": "Sofía",
+        "apellido": "González",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 9.5},
+          {"nombre": "Ciencias", "nota": 7.0},
+          {"nombre": "Historia", "nota": 8.8}
+        ]
+      },
+      {
+        "nombre": "Pedro",
+        "apellido": "Rodríguez",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 8.0},
+          {"nombre": "Ciencias", "nota": 7.5},
+          {"nombre": "Historia", "nota": 9.2}
+        ]
+      },
+      {
+        "nombre": "Ana",
+        "apellido": "Pérez",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 7.5},
+          {"nombre": "Ciencias", "nota": 8.5},
+          {"nombre": "Historia", "nota": 7.0}
+        ]
+      },
+      {
+        "nombre": "José",
+        "apellido": "Fernández",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 8.8},
+          {"nombre": "Ciencias", "nota": 7.8},
+          {"nombre": "Historia", "nota": 8.5}
+        ]
+      },
+      {
+        "nombre": "Isabel",
+        "apellido": "Sánchez",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 7.2},
+          {"nombre": "Ciencias", "nota": 8.2},
+          {"nombre": "Historia", "nota": 9.0}
+        ]
+      },
+      {
+        "nombre": "Miguel",
+        "apellido": "Díaz",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 9.0},
+          {"nombre": "Ciencias", "nota": 8.5},
+          {"nombre": "Historia", "nota": 7.8}
+        ]
+      },
+      {
+        "nombre": "Juan",
+        "apellido": "Gómez",
+        "materias": [
+          {"nombre": "Matemáticas", "nota": 8.2},
+          {"nombre": "Ciencias", "nota": 7.0},
+          {"nombre": "Historia", "nota": 8.5}
+        ]
+      }
+    ]
+  }
+  
