@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { MateriasService } from '../../services/materias.service';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
