@@ -1,24 +1,36 @@
 import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { MateriasService } from '../../services/materias.service';
+import { NgFor } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, NgFor, HttpClientModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
+  providers:[HttpClient]
 })
 export class HomeComponent implements OnInit {
   constructor(private service: MateriasService) {}
 
   //METODO GET
-  dataMateria: any = {};
-  
+  dataMateria: any;
+
+ 
   ngOnInit(): void {
     this.service.getMaterias().subscribe((materias) => {
+
       this.dataMateria = materias;
+      // for (let i = 0; i < this.dataMateria.length; i++) {
+        
+        
+      // }
+      console.log(this.dataMateria);
+
+
     });
   }
 

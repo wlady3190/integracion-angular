@@ -1,48 +1,49 @@
 <div class="general">
   <h2 class="title-1">Registro de Notas</h2>
   <div class="general-container">
-  
+    <div>
+      <!-- {{datamateria |json}} -->
+
+      <!-- {{dataMateria | json}} -->
+    </div>
+
     <div class="container">
       <div class="form-container">
-          <h2>Registro de Notas</h2>
-          <form>
-              <div class="form-group">
-                  <label>ID:</label>
-                  <input type="text" name="id" required>
-              </div>
-              <div class="form-group">
-                  <label>Materia:</label>
-                  <input type="text" name="materia" required>
-              </div>
-              <div class="form-group">
-                  <label>Nota:</label>
-                  <input type="number" name="nota" required>
-              </div>
-              <div class="buttons">
-                  <button type="submit">Registrar</button>
-                  <button type="button" class="eliminar-btn">Eliminar</button>
-              </div>
-          </form>
+        <h2>Registro de Notas</h2>
+        <form>
+          <div class="form-group">
+            <label>ID:</label>
+            <input type="text" name="id" required />
+          </div>
+          <div class="form-group">
+            <label>Materia:</label>
+            <input type="text" name="materia" required />
+          </div>
+          <div class="form-group">
+            <label>Nota:</label>
+            <input type="number" name="nota" required />
+          </div>
+          <div class="buttons">
+            <button type="submit">Registrar</button>
+            <button type="button" class="eliminar-btn">Eliminar</button>
+          </div>
+        </form>
       </div>
       <div class="card-container">
-          <div class="card">
-              <h3>Pedro Torres</h3>
-              <div class="datos-materia">
-                  <p>ID: </p>
-                  <br>
-                  <p>Materia:</p>
-                  <br>
-                  <p>Nota:</p>
-              </div>
-              
+        <div class="card">
+          <h3>Pedro Torres</h3>
+          <div class="datos-materia">
+            @for (item of dataMateria; track item) {
+            <!-- {{item.nombreMateria}} -->
+            <p>ID: {{ item.id }}</p>
+            <br />
+            <p>Materia: {{ item.nombreMateria }}</p>
+            <br />
+            <p>Nota: {{ item.nota }}</p>
+            }
           </div>
+        </div>
       </div>
-      
     </div>
-    
-    
-    
-  
   </div>
 </div>
-
