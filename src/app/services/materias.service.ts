@@ -10,20 +10,20 @@ export class MateriasService {
 
   private API_MATERIAS = 'http://localhost:9091/materias';
 
-  getProducto(): Observable<any> {
+  getMaterias(): Observable<any> {
     return this.http.get(this.API_MATERIAS);
   }
 
-  postProducto(materia: any): Observable<any> {
+  postMateria(materia: any): Observable<any> {
     return this.http.post(this.API_MATERIAS, materia);
   }
 
-  putProductos(materia: any, id: any): Observable<any> {
+  putMateria(materia: any, id: any): Observable<any> {
     this.API_MATERIAS = `${this.API_MATERIAS}/${id}`;
     return this.http.put(this.API_MATERIAS, materia);
   }
 
-  deleteProductos(id: any): Observable<any> {
+  deleteMateria(id: any): Observable<any> {
     this.API_MATERIAS = `${this.API_MATERIAS}/${id}`;
     return this.http.delete(this.API_MATERIAS);
   }
