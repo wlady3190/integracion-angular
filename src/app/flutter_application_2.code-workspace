@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../flutter_Itsqmet/ejemplo1/flutter_application_2"
+		},
+		{
+			"path": "../../../../../flutter_Itsqmet/ejemplo1/flutter_application_1"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "integracion de sistemas"
+	}
+}
